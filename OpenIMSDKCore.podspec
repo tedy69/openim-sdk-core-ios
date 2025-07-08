@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'OpenIMSDKCore'
-  s.version          = '3.8.3-hotfix.8'
-  s.summary          = 'Open-IM-SDK-Core'
+  s.name             = 'OpenIMSDKCoreInter'
+  s.version          = '3.8.3+4'
+  s.summary          = 'Open-IM-SDK-Core-Inter'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,10 +21,10 @@ Pod::Spec.new do |s|
   OpenIM：由前微信技术专家打造的基于 Go 实现的即时通讯（IM）项目，iOS版本IM SDK 可以轻松替代第三方IM云服务，打造具备聊天、社交功能的app。
                        DESC
 
-  s.homepage         = 'https://github.com/OpenIMSDK/Open-IM-SDK-iOS'
+  s.homepage         = 'https://github.com/tedy69/openim-sdk-core-ios'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'OpenIMSDKCore' => 'https://github.com/std-s/Open-IM-SDK-Core' }
-  s.source           = { :git => 'https://github.com/OpenIMSDK/openim-sdk-core-ios.git', :tag => s.version.to_s }
+  s.author           = { 'OpenIMSDKCoreInter' => 'https://github.com/tedy69/openim-sdk-core-ios' }
+  s.source           = { :git => 'https://github.com/tedy69/openim-sdk-core-ios.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '11.0'    
     
